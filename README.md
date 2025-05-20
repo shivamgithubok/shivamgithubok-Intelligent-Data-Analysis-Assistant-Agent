@@ -43,5 +43,5 @@ datasen/
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/datasen.git](https://github.com/shivamgithubok/shivamgithubok-Intelligent-Data-Analysis-Assistant-Agent
+git clone [https://github.com/shivamgithubok/shivamgithubok-Intelligent-Data-Analysis-Assistant-Agent]
 cd datasen
