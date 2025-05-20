@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataSen - Intelligent Data Assistant</title>
+</head>
+<body>
+    <h1>DataSen - Your Intelligent Data Analysis Assistant</h1>
+    <form method="POST">
+        <label>Enter your question:</label><br>
+        <textarea name="query" rows="4" cols="50" required></textarea><br><br>
+
+        <label>Enter CSV file path (optional):</label><br>
+        <input type="text" name="data_path" size="50"><br><br>
+
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if response %}
+        <h3>Assistant:</h3>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
